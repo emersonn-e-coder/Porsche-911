@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background: linear-gradient(to top, rgb(25, 25, 83), rgb(189, 189, 189));
+}
+/* style para o search */
+form.pesquisa input[type=search] {
+   
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    height: 7%;
+    background: #f1f1f1;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    margin-top: 2%;
+    margin-left: 60%;
+    border-right: none;
+   
+  }
+  input:focus{
+      
+      outline: none; 
+  }
+  
+  /* Style para o  button */
+  form.pesquisa button {
+    float: left;
+    width: 5%;
+    padding: 4px;
+    background: #7bbaee;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: %;
+   
+   
+  }
+  
+  form.pesquisa button:hover {
+    background: #0b7dda;
+  }
+   
+  
+  /* Clear floats 
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }*/
+  
+  button{
+      margin-left: px;
+      border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+   
+      
+  }
+  button:focus{
+      outline: none; 
+  }
+ 
+  
+  .fa {
+      font-size: 25px;
+      color: rgb(56, 56, 56);
+  }
+  
+/*div.cabeca  {
+margin-top: 17%;}
+
+.pesquisa {
+width: 500px;
+height: 40px;
+margin-left: 800px;
+margin-top: -14.5%;
+position: absolute;
+
+}
+input {
+width: 450px;
+height: 40px;
+float: left;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+button {
+width: 45px;
+line-height: 21px;
+background-color: #cecece;
+padding: 8.35px 7.5px;
+cursor: pointer;
+margin-top: %;
+margin-left: 3px;
+font-size:15pt;
+}
+button:hover {
+background-color: rgb(31, 185, 31);
+}
+button:active {
+box-shadow: 1px 2px 2px rgba(65, 64, 64, 0.35);
+background-color: rgb(66, 101, 177);
+}
+#texto:focus{
+border: solid 1px rgb(75, 74, 74);
+
+}*/
+.img-logo {
+position:absolute;
+width: 380px;
+height: 200px;
+margin-top: -7%;
+margin-left: 3%;
+}
+/*//////////////////////////////////////////Slides////////////////////////////*/
+img.img-1000{width: 1358px;height: 318px;}
+img.img-2000{width: 1358px;height: 318px;}
+img.img-4000{width: 1358px;height: 318px;}
+img.img-5000{width: 1358px;height: 318px;}
+img.img-6000{width: 1358px;height: 318px;}
+img.img-7000{width: 1358px;height: 318px;}
+/*img.img-8000{width: 1358px;height: 318px;}*/
+img.img-9000{width: 1358px;height: 318px;}
+img.img-10000{width: 1358px;height: 318px;}
+img.img-11000{width: 1358px;height: 318px;}
+img.img-12000{width: 1358px;height: 318px;}
+img.img-13000{width: 1358px;height: 318px;}
+
+div.carousel-inner {
+    width: 1358px;
+    height: 318px;
+    margin-left: -10%;
+    position: relative;
+    box-shadow: black 5px 0 5px 0 ;
+    margin-top:5%;
+   
+}
+ol.carousel-indicators  {/*indicadores 6 pontinhos*/
+top:350px;
+position: absolute;
+
+}
+div.container{
+    position:relative;
+    top:55px;
+}
+a.left {
+   margin-left: -9.9%;
+   margin-top:5.5% ;
+}
+a.right {
+   margin-right: -9.2%;
+   margin-top:5.5% ;
+}
+
+/*//////////////////////////////////////////FOOTER///////////////////////////////////////*/
+div.footer {
+width: 100%;
+height: 350px;
+background-color: rgb(46, 45, 45);
+margin-top: 10%;
+}
+div.data {
+margin-left: 25%;
+background-color: burlywood;
+width: 210px;
+font-family: sans-serif;
+text-align: center;
+}
