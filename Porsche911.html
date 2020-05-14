@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Porsche</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>    
+ 
+</head>
+
+  <body>
+
+  <div class="cabeca">
+    <img src="carroLogo.png"class="img-logo">
+
+    
+    <form class="pesquisa" >
+      <input type="search" action=""  placeholder="Pesquisar modelo..."list="historico">
+      <button type="submit" value="pesquisar"><i class="fa fa-search"></i></button>
+  
+      <datalist id="historico">
+          <option value="Porsche 01"></option>
+          <option value="Produto 02"></option>
+          <option value="Produto 03"></option>
+          <option value="Produto 04"></option>
+          <option value="Produto 05"></option>
+          <option value="Produto 06"></option>
+          <option value="Produto 07"></option>
+          <option value="Produto 08"></option>
+          <option value="Produto 09"></option>
+          <option value="Produto 10"></option>
+          <option value="Produto 11"></option>
+          <option value="Produto 12"></option>
+          <option value="Produto 13"></option>
+          <option value="Produto 14"></option>
+          <option value="Produto 15"></option>
+          <option value="Produto 16"></option>
+          <option value="Produto 17"></option>
+          <option value="Produto 18"></option>
+          <option value="Produto 19"></option>
+          <option value="Produto 20"></option>
+      </datalist>
+    </form>
+</div>
+
+
+<!--/////////////////////////////////////Slides/////////////////////////////////////////-->
+<div class="container">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="imagens/1000.png" class="img-1000"  >
+      </div>
+
+     <div class="item">
+        <img src="imagens/2000.png" class="img-2000" >
+      </div>
+    
+      <div class="item">
+        <img src="imagens/4000.png" class="img-4000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/5000.png" class="img-5000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/6000.png" class="img-6000">
+      </div>
+
+      <!--<div class="item">
+        <img src="imagens/7000.png" class="img-7000" >
+      </div>-->
+
+      <!--<div class="item">
+        <img src="imagens/8000.png" class="img-8000" >
+      </div>-->
+
+      <div class="item">
+        <img src="imagens/9000.png" class="img-9000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/10000.png" class="img-10000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/11000.png" class="img-11000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/12000.png" class="img-12000" >
+      </div>
+
+      <div class="item">
+        <img src="imagens/13000.png" class="img-13000" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" >
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!--///////////////////////////////////////////////FOOTER//////////////////////////////////////////////////////////-->
+<div class="footer">
+
+    <div class="data">
+     <script>   
+     Hoje = new Date()  
+     Data = Hoje.getDate()   
+     Dia = Hoje.getDay()   
+     Mes = Hoje.getMonth()   
+     Ano = Hoje.getFullYear()   
+     // 
+     if (Data<10) {   
+     Data = "0" + Data}  
+     if (Ano < 2000) {   
+     Ano = "19" + Ano}   
+     // 
+     NomeDia = new Array(7) 
+     NomeDia[0] = "Domingo"   
+     NomeDia[1] = "Segunda-feira"   
+     NomeDia[2] = "Terça-feira"   
+     NomeDia[3] = "Quarta-feira"   
+     NomeDia[4] = "Quinta-feira"   
+     NomeDia[5] = "Sexta-feira"   
+     NomeDia[6] = "Sábado"   
+     //   
+     NomeMes = new Array(12) 
+     NomeMes[0] = "Janeiro"   
+     NomeMes[1] = "Fevereiro"   
+     NomeMes[2] = "Março"   
+     NomeMes[3] = "Abril"   
+     NomeMes[4] = "Maio"   
+     NomeMes[5] = "Junho"   
+     NomeMes[6] = "Julho"   
+     NomeMes[7] = "Agosto"   
+     NomeMes[8] = "Setembro"  
+     NomeMes[9] = "Outubro"   
+     NomeMes[10] = "Novembro"   
+     NomeMes[11] = "Dezembro"   
+      // 
+     // function MostrarData() {   
+     document.write ("<font color='black' face='verdana,tahoma' size=1><b>" + 
+     NomeDia[Dia] + ", " + Data + " de " + NomeMes[Mes] + " de " + Ano + 
+     "</font>.")   
+     // } 
+     </script> </div>
+</div>
+
+</body>
+</html>
