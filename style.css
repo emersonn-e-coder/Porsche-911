@@ -1,79 +1,79 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow:auto;
-    background: linear-gradient(to top, rgb(25, 25, 83), rgb(189, 189, 189));
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  background: linear-gradient(to top, rgb(25, 25, 83), rgb(189, 189, 189));
 }
 /* style para o search */
 form.pesquisa input[type=search] {
-   
-    padding: 8px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 30%;
-    height: 7%;
-    background: #f1f1f1;
-    border-top-left-radius: 27px;
-    border-bottom-left-radius: 27px;
-    margin-top: 2%;
-    margin-left: 60%;
-    border-right: none;
-   
-  }
-  input:focus{
-      
-      outline: none; 
-  }
-  
-  /* Style para o  button */
-  form.pesquisa button {
-    float: left;
-    width: 5%;
-    padding: 4px;
-    background: #7bbaee;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-    margin-top: 2%;
-    margin-left: %;
-   
-   
-  }
-  
-  form.pesquisa button:hover {
-    background: #0b7dda;
-  }
-   
-  
-  /* Clear floats 
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }*/
-  
-  button{
-      margin-left: px;
-      border-top-right-radius: 27px;
-    border-bottom-right-radius: 27px;
-   
-      
-  }
-  button:focus{
-      outline: none; 
-  }
  
-  
-  .fa {
-      font-size: 25px;
-      color: rgb(56, 56, 56);
-  }
-  
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  height: 7%;
+  background: #f1f1f1;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  margin-top: 2%;
+  margin-left: 60%;
+  border-right: none;
+ 
+}
+input:focus{
+    
+    outline: none; 
+}
+
+/* Style para o  button */
+form.pesquisa button {
+  float: left;
+  width: 5%;
+  padding: 4px;
+  background: #7bbaee;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: %;
+ 
+ 
+}
+
+form.pesquisa button:hover {
+  background: #0b7dda;
+}
+ 
+
+/* Clear floats 
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+button{
+    margin-left: px;
+    border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+ 
+    
+}
+button:focus{
+    outline: none; 
+}
+
+
+.fa {
+    font-size: 25px;
+    color: rgb(56, 56, 56);
+}
+
 /*div.cabeca  {
 margin-top: 17%;}
 
@@ -136,13 +136,13 @@ img.img-12000{width: 1358px;height: 318px;}
 img.img-13000{width: 1358px;height: 318px;}
 
 div.carousel-inner {
-    width: 1358px;
-    height: 318px;
-    margin-left: -10%;
-    position: relative;
-    box-shadow: black 5px 0 5px 0 ;
-    margin-top:5%;
-   
+  width: 1358px;
+  height: 318px;
+  margin-left: -10%;
+  position: relative;
+  box-shadow: black 5px 0 5px 0 ;
+  margin-top:5%;
+ 
 }
 ol.carousel-indicators  {/*indicadores 6 pontinhos*/
 top:350px;
@@ -150,25 +150,25 @@ position: absolute;
 
 }
 div.container{
-    position:relative;
-    top:55px;
+  position:relative;
+  top:55px;
 }
 a.left {
-   margin-left: -9.9%;
-   margin-top:5.5% ;
+ margin-left: -9.9%;
+ margin-top:5.5% ;
 }
 a.right {
-   margin-right: -9.2%;
-   margin-top:5.5% ;
+ margin-right: -9.2%;
+ margin-top:5.5% ;
 }
 
 /*//////////////////////////////////////////FOOTER///////////////////////////////////////*/
 h4 {
-  color: #f1f1f1;
-  text-align: center;
-  margin-top: 5px;
-  padding: 15px;
-  
+color: #f1f1f1;
+text-align: center;
+margin-top: 5px;
+padding: 15px;
+
 }
 div.footer {
 width: 100%;
